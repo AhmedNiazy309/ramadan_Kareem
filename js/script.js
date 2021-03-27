@@ -3,7 +3,8 @@ var i = 0,
     text;
 var j = 0,
     text2;
-var element = document.getElementById("ram");
+    var element = document.getElementById("ram");
+    var element2 = document.getElementById("ram2");
 text = "رمــضــان كــريــم";
 text2 =
     "اللهم اجعل صيامي فيه صيام الصائمين وقيامي فيه قيام القائمين، ونبهني فيه عَن نومة الغافلين، وهب لي جرمي فيه يا رب العالمين، واعف عني يا عافيًا عن المجرمين";
@@ -27,6 +28,8 @@ function typing2() {
         if (j == text2.length) {
             element.classList.remove("d-none");
             element.classList.add("d-block");
+            element2.classList.remove("d-none");
+            element2.classList.add("d-flex");
         }
     }
 }
