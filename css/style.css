@@ -21,6 +21,11 @@ body {
 .ramadan {
     padding: 5% 0;
     background-color: #ddd;
+    transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
 }
 
 .ramadan .ram {
@@ -31,11 +36,14 @@ body {
     background: url("../download.jfif") 50% 50%;
     background-size: cover;
     -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -moz-background-clip: text;
+    -ms-background-clip: text;
+    -o-background-clip: text;
     -webkit-background-clip: text;
 }
 
 .ram {
-    transition: all 2s ease-in-out;
     text-align: center;
 }
 
@@ -47,9 +55,9 @@ body {
 
 .text {
     color: #fff;
-    font-size: 70px;
+    font-size: 40px;
     font-family: "montserrat";
-    font-weight: 900;
+    font-weight: 800;
     cursor: pointer;
 }
 
